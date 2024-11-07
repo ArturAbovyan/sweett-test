@@ -1,0 +1,76 @@
+.cover_div{
+	position: relative;
+	padding: calc(30px + 0.625vw) calc(15px + 0.938vw);
+	box-sizing: border-box;
+	width: 280px;
+	height: 400px;
+	background: rgba(154, 154, 154, 0.7);
+	color: #000000;
+	border-radius: 15%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+    min-width: 168px;
+
+    @media (min-width: 992px) and (max-width: 1200px) {
+        width: 224px;
+        height: 320px;
+    }
+
+    @media (max-width: 992px) {
+        width: 168px;
+        height: 240px;
+    }
+
+    @media (min-width: 1600px) {
+        padding: 40px 30px;
+        width: 280px;
+        height: 400px;
+    }
+}
+
+.cover_div h6{
+	font-size: calc(12px + 0.75vw);
+	margin: 0;
+
+    @media (min-width: 1600px) {
+        font-size: 24px;
+    }
+}
+
+.cover_div p{
+	font-size: calc(8px + 0.5vw);
+
+    @media (min-width: 1600px) {
+        font-size: 16px;
+    }
+}
+
+.cover_div button:last-of-type{
+	cursor: pointer;
+	text-align: center;
+	box-sizing: border-box;
+	padding: calc(7.5px + 0.469vw) calc(10px + 0.625vw);
+	display: block;
+	width: 100%;
+	appearance: none;
+	text-decoration: none;
+	color: #FAFAFA;
+	background: #ff9900;
+	font-weight: 800;
+	border-radius: 30px;
+	border: none;
+
+    @media (min-width: 1600px) {
+        padding: 15px 20px;
+    }
+}
+
+.favorite_btn{
+	cursor: pointer;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	background: none;
+	border: none;
+}

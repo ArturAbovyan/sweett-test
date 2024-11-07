@@ -1,0 +1,24 @@
+body{
+    min-width: 300px;
+	padding: 0 100px 100px;
+	margin: 0;
+	background-repeat: no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/imgs/starsBg.webp');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+    overflow-x: hidden;
+
+    @media (min-width: 768px) and (max-width: 992px) {
+        padding: 0 50px 50px;
+    }
+
+    @media (max-width: 768px) {
+        padding: 0 16px 32px;
+    }
+}
+
+*{
+	user-select: none;
+	font-family: "Open Sans", sans-serif;
+}

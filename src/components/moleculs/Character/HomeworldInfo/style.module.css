@@ -1,0 +1,19 @@
+.heading{
+    font-size: calc(12px + 0.75vw);
+	color: #FAFAFA;
+	margin: 0;
+
+    @media (min-width: 1600px) {
+        font-size: 24px;
+    }
+}
+
+.homeworld_info{
+	font-size: calc(8px + 0.5vw);
+	color: #FAFAFA;
+    text-align: left;
+
+    @media (min-width: 1600px) {
+        font-size: 16px;
+    }
+}

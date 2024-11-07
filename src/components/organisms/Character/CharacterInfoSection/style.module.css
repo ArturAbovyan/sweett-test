@@ -1,0 +1,19 @@
+.character_wrapper {
+    width: 100%;
+    /*max-width: 1600px;*/
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.character_wrapper > div:first-child {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.character_info_p{
+	color: #FAFAFA;
+    text-align: left;
+}

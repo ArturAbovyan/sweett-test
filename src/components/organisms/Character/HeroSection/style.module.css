@@ -1,0 +1,16 @@
+.section_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.heading{
+	max-width: 800px;
+    font-size: calc(24px + 1.5vw);
+	color: #FAFAFA;
+	text-align: center;
+
+    @media (min-width: 1600px) {
+        font-size: 48px;
+    }
+}

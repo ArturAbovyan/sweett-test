@@ -1,0 +1,17 @@
+.page_heading {
+    width: fit-content;
+    box-sizing: border-box;
+    padding: calc(40px + 2.5vw) 0 calc(60px + 3.75vw);
+    margin: 0 auto;
+    max-width: 870px;
+    color: #FAFAFA;
+    font-size: calc(24px + 1.5vw);
+    text-align: center;
+    font-weight: 700;
+    text-transform: capitalize;
+
+    @media (min-width: 1600px) {
+        padding: 80px 0 120px;
+        font-size: 48px;
+    }
+}
